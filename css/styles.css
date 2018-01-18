@@ -1,0 +1,32 @@
+.real h1, h2{
+  text-align: center;
+}
+.column{
+  margin-left: 6.3em;
+  float: left;
+  width: 20%;
+  background-color: green;
+  border: blue solid 3px;
+}
+img{
+  border: yellow solid 2px;
+  margin-left: 3em;
+  height: 100px;
+  width: 150px;
+}
+.column h3, p {
+  text-align: center;
+  color: yellow;
+  font-size: 20px;
+  font-style: oblique;
+}
+.column h3{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
